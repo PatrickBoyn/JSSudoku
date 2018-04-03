@@ -1,3 +1,5 @@
 const p = document.querySelector("p");
 
-p.textContent = "This is a test. ";
+let arr = [1,2,3,4,5];
+
+p.textContent = arr[4];
