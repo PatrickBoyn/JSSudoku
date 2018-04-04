@@ -7,6 +7,9 @@
 }
 .number{
     border:2px solid grey;
+    background:blue;
+    color:white;
     margin:0;
     width:100%;
+    text-align:center;
 }
