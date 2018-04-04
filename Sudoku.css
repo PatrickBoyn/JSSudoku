@@ -2,7 +2,11 @@
     border:2px solid red;
     width:200px;
     height:200px;
+    display:flex;
+    flex-wrap:wrap;
 }
 .number{
     border:2px solid grey;
+    margin:0;
+    width:100%;
 }
