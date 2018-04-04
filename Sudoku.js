@@ -1,7 +1,8 @@
-const p = document.querySelectorAll(".number");
+let p = document.querySelector(".number");
 
-let arr = [1,2,3,4,5,6,7,8,9];
+const arr = [1,2,3,4,5,6,7,8,9];
 
-p.forEach(function(arr){
-    p.textContent = arr.toString();
-});
+for(var i = 0; i <= arr.length; i++){
+   p.textContent = arr.toString();
+   console.log(i);
+}
