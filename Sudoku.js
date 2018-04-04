@@ -14,7 +14,7 @@ button.addEventListener("click", () => {randomText();});
 
 // I will want to use this again maybe. 
 function randomText(){
-    p.forEach((p, i) => p.textContent = r+=1);
+    p.forEach((p, i) => p.textContent = r+=r);
 };
 
 // So I can see if there is a problem.
