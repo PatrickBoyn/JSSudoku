@@ -10,6 +10,5 @@ let r = Math.floor(Math.random() * arr.length);
 // The arrow click function is mine however. 
 button.addEventListener("click", () => { p.forEach((p, arr) => p.textContent=r + 1);});
 
-
-
+// So I can see if there is a problem.
 console.log(arr);
