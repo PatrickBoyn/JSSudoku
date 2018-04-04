@@ -2,7 +2,7 @@ let p = document.querySelectorAll(".number");
 let button = document.querySelector("button");
 
 let arr = [1,2,3,4,5,6,7,8,9];
-let r = Math.floor(Math.random() * arr);
+let r = Math.floor(Math.random() * arr[i]);
 
 /* II can't claim credit for this lambda expression,
    You have to admit it's pretty elegant. My bit is the + 1
