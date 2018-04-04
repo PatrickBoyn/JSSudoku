@@ -5,4 +5,3 @@ let r = Math.floor(Math.random() * 9);
 // You have to admit it's pretty elegant. My bit is the + 1
 // Sudoku has 9 numbers 1-9
 p.forEach((p, i) => p.textContent=r += 1);
-
