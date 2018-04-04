@@ -5,6 +5,9 @@
     display:flex;
     flex-wrap:wrap;
 }
+#top{
+    border-top:none;
+}
 .number{
     border:2px solid grey;
     border-left:none;
