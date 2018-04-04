@@ -1,5 +1,5 @@
 let p = document.querySelectorAll(".number");
-let r = Math.floor(Math.random() * 9);
+let r = Math.floor(Math.random() * 3);
 
 // I can't claim credit for this lambda expression,
 // You have to admit it's pretty elegant. My bit is the + 1
