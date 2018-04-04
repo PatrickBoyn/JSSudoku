@@ -10,7 +10,7 @@ let r = Math.floor(Math.random() * arr.length + 1);
    The arrow click function is mine however. */
 button.addEventListener("click", () => {randomText();});
 
-
+// I will want to use this again maybe. 
 function randomText(){
     p.forEach((p, i) => p.textContent = r);
 };
