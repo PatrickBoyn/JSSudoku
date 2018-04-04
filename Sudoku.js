@@ -4,6 +4,8 @@ let button = document.querySelector("button");
 let arr = [1,2,3,4,5,6,7,8,9];
 let r = Math.floor(Math.random() * arr.length + 1);
 
+randomText();
+
 /* II can't claim credit for this lambda expression,
    You have to admit it's pretty elegant. My bit is the + 1
    Sudoku has 9 numbers 1-9 +=1
@@ -12,7 +14,7 @@ button.addEventListener("click", () => {randomText();});
 
 // I will want to use this again maybe. 
 function randomText(){
-    p.forEach((p, i) => p.textContent = r);
+    let test = p.forEach((p, i) => p.textContent = r+=1);
 };
 
 // So I can see if there is a problem.
