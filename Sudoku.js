@@ -1,8 +1,6 @@
-let p = document.querySelector(".number");
+let p = document.querySelectorAll(".number");
 
-const arr = [1,2,3,4,5,6,7,8,9];
-
-for(var i = 1; i <= arr.length; i++){
-   p.textContent = arr.join(" ").toString();
-   console.log(i);
-}
+// I can't claim credit for this lambda expression,
+// You have to admit it's pretty elegant. My bit is the + 1
+// Sudoku has 9 numbers 1-9. 
+p.forEach((p, i) => p.textContent=i+1);
