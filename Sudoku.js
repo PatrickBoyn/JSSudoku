@@ -1,7 +1,6 @@
 let p = document.querySelectorAll(".number");
 let button = document.querySelector("button");
 
-let arr = [1,2,3,4,5,6,7,8,9];
 let r = Math.floor(Math.random() * 9) + 1;
 
 randomText();
@@ -15,9 +14,6 @@ button.addEventListener("click", () => {randomText();});
 // I will want to use this again maybe. 
 function randomText(){
         p.forEach((p, i) => p.textContent = i+=r);
-        r.style.color = "green";
+        i[4].style.display = "none";
         console.log(r);
 };
-
-// So I can see if there is a problem.
-console.log(arr);
