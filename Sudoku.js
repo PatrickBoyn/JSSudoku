@@ -13,7 +13,9 @@ let j = Math.floor(Math.random() * 9) + 1;
 
 let correct = p[a];
 
-console.log(correct);
+if(p[a] === p[a]){
+    console.log(p[a])
+}
 
 fillNumbers();
 /* II can't claim credit for this lambda expression,
