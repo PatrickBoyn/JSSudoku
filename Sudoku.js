@@ -14,7 +14,8 @@ button.addEventListener("click", () => {randomText();});
 
 // I will want to use this again maybe. 
 function randomText(){
-        p.forEach((p, i) => p.textContent = i+=1);
+        p.forEach((p, i) => p.textContent = i+=r);
+        r.style.color = "green";
         console.log(r);
 };
 
