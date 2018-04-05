@@ -21,12 +21,6 @@ fillNumbers();
    Sudoku has 9 numbers 1-9
    The arrow click function is mine however. */
 button.addEventListener("click", () => {fillNumbers();});
-if( correct > 1){
-    correct.style.background = "green";
-} else{
-    correct = p[b];
-    correct.style.background = "green";
-}
 
 // I will want to use this again maybe. 
 function fillNumbers(){
