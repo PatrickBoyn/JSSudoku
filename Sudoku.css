@@ -1,6 +1,6 @@
 #border{
     border:2px solid red;
-    width:200px;
+    width:800px;
     height:200px;
     display:flex;
     flex-wrap:wrap;
