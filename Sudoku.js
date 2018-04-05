@@ -13,7 +13,8 @@ let j = Math.floor(Math.random() * 9) + 1;
 
 let correct = p[a];
 
-console.log(p[a]);
+console.log(correct);
+
 fillNumbers();
 /* II can't claim credit for this lambda expression,
    You have to admit it's pretty elegant. My bit is the + 1
