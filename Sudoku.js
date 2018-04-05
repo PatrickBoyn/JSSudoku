@@ -11,7 +11,7 @@ let g = Math.floor(Math.random() * 9) + 1;
 let h = Math.floor(Math.random() * 9) + 1;
 let j = Math.floor(Math.random() * 9) + 1;
 
-let correct = p[2];
+let correct = p[a];
 
 fillNumbers();
 /* II can't claim credit for this lambda expression,
