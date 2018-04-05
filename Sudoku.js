@@ -10,18 +10,21 @@ let f = Math.floor(Math.random() * 9) + 1;
 let g = Math.floor(Math.random() * 9) + 1;
 let h = Math.floor(Math.random() * 9) + 1;
 let j = Math.floor(Math.random() * 9) + 1;
+
+let correct = p[2];
+
 fillNumbers();
 /* II can't claim credit for this lambda expression,
    You have to admit it's pretty elegant. My bit is the + 1
    Sudoku has 9 numbers 1-9
    The arrow click function is mine however. */
 button.addEventListener("click", () => {fillNumbers();});
-
+correct.style.background = "green";
 // I will want to use this again maybe. 
 function fillNumbers(){
         // The += is so that the numbers will change across all squares.   
         p.forEach((p, i) => p.textContent = i += 1);
-
+        
         p[0].textContent = a;
         p[1].textContent = b;
         p[2].textContent = c;
