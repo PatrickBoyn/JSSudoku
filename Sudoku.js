@@ -13,8 +13,9 @@ let j = Math.floor(Math.random() * 9) + 1;
 
 let correct = p[a];
 
-if(p[a] === p[a]){
-    console.log(p[a])
+if(correct === p[a]){
+    console.log(correct)
+    p[a].style.display = "none";
 }
 
 fillNumbers();
@@ -28,7 +29,7 @@ button.addEventListener("click", () => {fillNumbers();});
 function fillNumbers(){
         // The += is so that the numbers will change across all squares.   
         p.forEach((p, i) => p.textContent = i += 1);
-        
+
         p[0].textContent = a;
         p[1].textContent = b;
         p[2].textContent = c;
