@@ -1,4 +1,5 @@
 let p = document.querySelectorAll(".number");
+let same = document.getelementById("#same");
 let button = document.querySelector("button");
 
 let a = Math.floor(Math.random() * 9) + 1;
@@ -15,7 +16,6 @@ let correct = p[a];
 
 if(correct === p[a]){
     console.log(correct)
-    p[a].style.display = "none";
 }
 
 fillNumbers();
@@ -30,8 +30,11 @@ function fillNumbers(){
         // The += is so that the numbers will change across all squares.   
         p.forEach((p, i) => p.textContent = i += 1);
 
-        p[0].textContent = a;
-        p[1].textContent = b;
+        let test = p[0].textContent = a;
+        let test2 = p[1].textContent = b;
+        if(test === test2){
+            same.textContent = "They're the same. ";
+        }
         p[2].textContent = c;
         p[3].textContent = d;
         p[4].textContent = e;
