@@ -11,6 +11,8 @@ let g = Math.floor(Math.random() * 9) + 1;
 let h = Math.floor(Math.random() * 9) + 1;
 let j = Math.floor(Math.random() * 9) + 1;
 
+// This is not going to be permanant. 
+// I will figure out a way of making it pick a new one.
 let correct = p[a];
 
 if(correct === p[a]){
@@ -28,7 +30,8 @@ button.addEventListener("click", () => {fillNumbers();});
 function fillNumbers(){
         // The += is so that the numbers will change across all squares.   
         p.forEach((p, i) => p.textContent = i += 1);
-
+        // This is my code. 
+        // It's not dry I know, but when I figure out how to I will fix it.
         p[0].textContent = a;
         p[1].textContent = b;
         p[2].textContent = c;
