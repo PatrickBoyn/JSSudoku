@@ -43,6 +43,3 @@ function fillNumbers(){
         p[7].textContent = h;
         p[8].textContent = j;
 };
-if(p[0] === p[1]){
-    alert("They are the same!");
-}
