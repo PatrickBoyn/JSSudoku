@@ -1,7 +1,7 @@
 /* Ugly colors are fun to develop in.  */
 #border{
     border:2px solid red;
-    width:800px;
+    width:200px;
     height:200px;
     display:flex;
     flex-wrap:wrap;
@@ -18,7 +18,7 @@
     background:blue;
     color:white;
     margin:0;
-    width:33.1%;
+    width:33.3%;
     text-align:center;
 }
 button{
