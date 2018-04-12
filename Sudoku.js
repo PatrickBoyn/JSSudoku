@@ -1,5 +1,6 @@
 let p = document.querySelectorAll(".number");
 let button = document.querySelector("button");
+let same = document.querySelector("#same")
 
 let a = Math.floor(Math.random() * 9) + 1;
 let b = Math.floor(Math.random() * 9) + 1;
@@ -15,6 +16,7 @@ let j = Math.floor(Math.random() * 9) + 1;
 // I will figure out a way of making it pick a new one.
 let correct = p[a];
 
+same.textContntent = "Test";
 if(correct === p[a]){
     console.log(correct)
 }
