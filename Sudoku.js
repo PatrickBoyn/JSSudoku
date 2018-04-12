@@ -30,7 +30,6 @@ button.addEventListener("click", () => {fillNumbers();});
 function fillNumbers(){
         // The += is so that the numbers will change across all squares.   
         p.forEach((p, i) => p.textContent = i += 1);
-
         // This is my code. 
         // It's not dry I know, but when I figure out how to I will fix it.
         p[0].textContent = a;
