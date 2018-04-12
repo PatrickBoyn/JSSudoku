@@ -1,7 +1,7 @@
 let p = document.querySelectorAll(".number");
 let button = document.querySelector("button");
 
-let a = randomNumbers();
+let a = Math.floor(Math.random() * 9) + 1;
 let b = Math.floor(Math.random() * 9) + 1;
 let c = Math.floor(Math.random() * 9) + 1;
 let d = Math.floor(Math.random() * 9) + 1;
@@ -44,8 +44,4 @@ function fillNumbers(){
         p[6].textContent = g;
         p[7].textContent = h;
         p[8].textContent = j;
-};
-
-function randomNumbers(){
-    Math.floor(Math.random() * 9) + 1;
 };
