@@ -1,7 +1,7 @@
 let p = document.querySelectorAll(".number");
 let button = document.querySelector("button");
 
-let a = Math.floor(Math.random() * 9) + 1;
+let a = randomNumbers();
 let b = Math.floor(Math.random() * 9) + 1;
 let c = Math.floor(Math.random() * 9) + 1;
 let d = Math.floor(Math.random() * 9) + 1;
@@ -10,6 +10,8 @@ let f = Math.floor(Math.random() * 9) + 1;
 let g = Math.floor(Math.random() * 9) + 1;
 let h = Math.floor(Math.random() * 9) + 1;
 let j = Math.floor(Math.random() * 9) + 1;
+
+let cover = Math.floor(Math.random() * 9) + 1;
 
 // This is not going to be permanant. 
 // I will figure out a way of making it pick a new one.
@@ -42,4 +44,8 @@ function fillNumbers(){
         p[6].textContent = g;
         p[7].textContent = h;
         p[8].textContent = j;
+};
+
+function randomNumbers(){
+    Math.floor(Math.random() * 9) + 1;
 };
