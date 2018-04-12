@@ -11,8 +11,6 @@ let g = Math.floor(Math.random() * 9) + 1;
 let h = Math.floor(Math.random() * 9) + 1;
 let j = Math.floor(Math.random() * 9) + 1;
 
-let cover = Math.floor(Math.random() * 9) + 1;
-
 // This is not going to be permanant. 
 // I will figure out a way of making it pick a new one.
 let correct = p[a];
