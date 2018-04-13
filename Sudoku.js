@@ -17,7 +17,7 @@ let j = Math.floor(Math.random() * 9) + 1;
 let correct = p[a];
 
 same.textContent = "Testing 1,2,3";
- console.log(test);
+ 
 if(correct === p[a]){
     console.log(correct)
 }
