@@ -16,7 +16,7 @@ let j = Math.floor(Math.random() * 9) + 1;
 // I will figure out a way of making it pick a new one.
 let correct = p[a];
 
-same.innerHTML = correct;
+same.innerText = correct;
  
 if(correct === p[a]){
     console.log(correct)
